@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  android_build:
+    image: android_build
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - :

@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  android_build:
+    image: android_build
+    build: .
+    ports:
+      - :
